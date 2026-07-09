@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+myenv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+# Keep output/ charts in git so reviewers can see them without running code
+# But ignore CSV dumps from --save-csv flag
+output/*.csv
+
+# Real data captures (don't commit large real-data CSVs)
+real_l2*.csv
+test_l2.csv
+*_l2.csv
+
+# Logs
+*.log
