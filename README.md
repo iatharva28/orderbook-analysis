@@ -29,7 +29,6 @@ Built with **NumPy + Pandas + Matplotlib**. Ships with:
 orderbook_analysis/
 ├── README.md                  <- you are here
 ├── GLOSSARY.md                <- plain-English definitions of every term
-├── CONCEPT.md                 <- interview-prep: project terms + options, greeks, market making
 ├── requirements.txt           <- pip install -r requirements.txt
 ├── main.py                    <- CLI entry point
 ├── demo_notebook.ipynb        <- walkthrough notebook (already executed)
