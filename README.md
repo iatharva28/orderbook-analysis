@@ -36,8 +36,7 @@ orderbook_analysis/
 │   ├── signal_backtest.py     OFI -> z-score -> long/short -> P&L
 │   └── binance_loader.py      optional: live capture from Binance WS
 ├── output/                    pre-generated PNG charts
-├── GLOSSARY.md                plain-English term definitions
-└── CONCEPT.md                 study notes for quant interviews
+└── GLOSSARY.md                plain-English term definitions
 ```
 
 ## Quick start
@@ -134,3 +133,23 @@ ask_price, ask_qty` via `load_l2_csv()`.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Disclaimer
+
+This project is for **educational and research purposes only**. It is not
+financial advice, not a recommendation to trade, and not suitable for
+real trading without substantial additional work.
+
+- The synthetic data generator is a simplified model of real markets,
+  not a faithful simulation. Any backtest results on synthetic data
+  are not indicative of real-world performance.
+- The OFI signal, backtest, and slippage models make many simplifying
+  assumptions (no adverse selection, no queue priority, no latency, no
+  partial fills, no transaction costs beyond a flat round-trip fee).
+  Real trading incurs all of these and more.
+- If you choose to use any part of this code on real market data or
+  with real money, you do so entirely at your own risk. The author
+  assumes no liability for any financial losses or other damages
+  arising from the use of this software.
+
+See the [LICENSE](LICENSE) file for the full MIT terms.
