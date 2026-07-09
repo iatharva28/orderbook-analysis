@@ -1,4 +1,4 @@
-# Glossary — Order Book Analysis in Plain English
+# Glossary — Order Book Analysis 
 
 Every term used in this project, explained simply. Read this alongside
 the README if any part of the code feels unfamiliar.
