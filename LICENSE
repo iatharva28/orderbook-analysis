@@ -19,3 +19,22 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+----------------------------------------------------------------------
+
+EDUCATIONAL / RESEARCH USE NOTICE
+
+This Software is intended solely for educational, academic, and research
+purposes. It is NOT designed, tested, or intended for use in live trading,
+investment decision-making, or any other real-world financial activity.
+
+The Software makes extensive simplifying assumptions (including but not
+limited to: no adverse selection, no queue priority, no latency, no
+partial fills, simplified transaction costs, and synthetic data models)
+that make any backtest or signal output unrepresentative of real market
+performance.
+
+The author(s) explicitly disclaim all liability for any financial losses,
+damages, or other consequences arising from any attempt to use this
+Software, in whole or in part, with real capital or in live market
+conditions. Any such use is at the user's sole risk and responsibility.
